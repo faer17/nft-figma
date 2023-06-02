@@ -917,6 +917,7 @@ text-decoration: none;
     .gmail_inp {
         padding: 10px;
         font-size: 18px;
+        width: 222px;
     }
     .subs {
         margin: auto;
@@ -924,6 +925,7 @@ text-decoration: none;
         margin-left: -24px;
         margin-top: 15px;
         margin-bottom: 50px;
+        width: 222px;
     }
     .plk{
         width: 62px;
