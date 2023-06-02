@@ -1,0 +1,943 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@600;700&family=Work+Sans:wght@500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Oxanium', cursive;
+    font-family: 'Work Sans', sans-serif;
+    background: #1C121F;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* ========================nav started===================== */
+
+
+nav{
+    padding: 38px 0px;
+    align-items: center;
+}
+
+nav .list{
+    display: flex;
+    gap: 64px;
+}
+
+nav .list_item a{
+    text-decoration: none;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.02em;
+color: #F5FBF2;
+padding-bottom: 8px;
+transition: 0.3s ease-out;
+}
+
+nav .list_item a:hover{
+    color: #FFCE4E;
+    border-bottom: 2px solid #FFCE4E;
+
+}
+
+.btn_nav{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+color: #FFCE4E;
+
+
+padding: 21px 29px 22px 30px;
+background: rgba(233, 215, 167, 0.1);
+border: 1px solid #FFCE4E;
+}
+
+/*--========================nav finished===================== */
+
+
+
+
+
+
+/* =======================header started===================== */
+
+
+header{
+    padding-top: 139px;
+    padding-bottom: 200px;
+}
+
+.head_name{
+font-family: 'Oxanium';
+font-style: normal;
+font-weight: 700;
+font-size: 68px;
+line-height: 130px;
+color: #F5FBF2;
+}
+
+.head_name span{
+    color: #FFCE4E;
+}
+
+.head_btns{
+    display: flex;
+    gap: 68px;
+}
+
+.head_btns button{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+color: #000000;
+padding: 25px 60px;
+background: rgba(233, 215, 167, 0.1);
+border: 1px solid #FFCE4E;
+}
+
+.numb .piece span{
+    font-family: 'Oxanium';
+font-style: normal;
+font-weight: 700;
+font-size: 62px;
+line-height: 78px;
+color: #F5FBF2;
+}
+
+.numb{
+    display: flex;
+    gap: 60px;
+    margin-top: 121px;
+}
+
+.numb .piece p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+color: #9B9E9A;
+}
+
+
+/* =======================header finished===================== */
+
+/* =======================main started===================== */
+
+/* ===================first section started==================== */
+
+.logoies{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 193px;
+}
+
+/* ===================first section finished==================== */
+
+
+/* ===================second section started==================== */
+.purple_circle{
+padding-bottom: 94px;
+margin: auto;
+}
+
+.second_sec_name{
+font-family: 'Oxanium';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 130px;
+color: #F5FBF2;
+text-align: center;
+margin-bottom: 84px;
+position: absolute;
+width: 463px;
+}
+
+.ellipse{
+    background: #8613A5;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin: auto;
+    margin-left: 391px;
+}
+
+.auctions{
+    justify-content: space-between;
+}
+
+.pic_card{
+    background: #3D2942;
+    padding: 32px 35px 32px 32px ;
+}
+
+
+.bid{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #C6BFC8;
+}
+
+
+
+.c_text{
+    display: flex;
+    gap: 170px;
+}
+
+.eth{
+font-family: 'Oxanium';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+color: #F5FBF2;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+    margin-bottom: 36px;
+}
+
+.s_svg{
+    margin-left: 106px;
+}
+
+
+.u_name{
+    margin-left: 19px;
+}
+
+.u_name span{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 35px;
+color: #F5FBF2;
+}
+
+
+.u_name p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #BDAAC1;
+}
+
+
+.ninety_two{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 35px;
+color: #76607A;
+margin-left: 9px;
+}
+
+
+.s_btn{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 35px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+padding: 21px 144px;
+background: rgba(233, 215, 167, 0.1);
+border: 1px solid #FDE8B3;
+margin-top: 40px;
+}
+
+
+.vi_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 84px;
+    margin-bottom: 80px;
+}
+
+.view_btn{
+font-family: 'Work Sans';
+font-weight: 500;
+font-size: 30px;
+color: #F5FBF2;
+padding: 24px 65px;
+border: 1px solid #FFCE4E;
+background: transparent;
+}
+
+/* ===================second section finished==================== */
+/* ===================third section started==================== */
+.third_section{
+    padding-top: 185px;
+    background: linear-gradient(336.61deg, #251928 16.25%, rgba(37, 25, 40, 0) 91.6%);
+}
+
+
+.h_work_name{
+font-family: 'Oxanium';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 130px;
+color: #F5FBF2;
+text-align: center;
+}
+
+.load{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 174px;
+}
+
+.load_top{
+    text-align: center;
+}
+
+.load_top img{
+    width: 70px;
+}
+
+.load_line img{
+    width: 96px;
+}
+
+
+.load span{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+text-transform: capitalize;
+color: #FFCE4E;
+display: block;
+margin-top: 32px;
+}
+
+/* ===================third section finished==================== */
+/* ===================fourth section started==================== */
+.pink_circle{
+    margin: auto;
+    padding: 174px 0px 106px;
+}
+
+
+.fourth_sec_name{
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130px;
+    color: #F5FBF2;
+    text-align: center;
+    margin-bottom: 84px;
+    position: absolute;
+    width: 594px;
+    }
+    
+    .ellipse,
+    .ellipse_fourth{
+        background: #8613A5;
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        margin: auto;
+        margin-left: -8px;
+    }
+
+#site-usage-rating{
+    display: none;
+}
+
+.user_girl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.erc{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 35px;
+color: #C2B5C6;
+}
+
+.glass{
+    background: #3D2942;
+    padding: 36px 10px;
+}
+
+
+.popular{
+    justify-content: space-around;
+}
+/* ===================fourt section finished==================== */
+/* ===================fifth section started==================== */
+
+.fifth_sec_name{
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130px;
+    color: #F5FBF2;
+    text-align: center;
+    margin-bottom: 84px;
+    position: absolute;
+    width: 690px;
+}
+/* ===================fifth section finished==================== */
+
+
+
+/* ===================sixth section started==================== */
+
+
+.creator{
+    padding: 26px;
+}
+
+/* ===================sixth section finished==================== */
+
+
+/* ===================== seventh section started================ */
+.seven_section{
+    background: url(./img/feet.png);
+}
+
+.nft_seven{
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130px;
+    text-align: center;
+    color: #F5FBF2;
+}
+
+
+.gmail_inp{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+color: #A48EA9;
+    border: 1px solid #E7B226;
+    padding: 30px 70px 30px 53px;
+    background: transparent;
+}
+
+.subs{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+color: #251928;
+padding: 32px 62px 28px ;
+background: #E7B226;
+border: none;
+margin-bottom: 117px;
+}
+
+/* ===================== seventh section finished================ */
+
+/* =======================main finished===================== */
+
+
+/*  ======================= footer started ================ */
+footer{
+    padding-top: 119px;
+    padding-bottom: 116px;
+    background: #251928;
+}
+
+.fot{
+    justify-content: space-between;
+}
+
+.end_text{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 36px;
+color: #96839B;
+margin-bottom: 60px;
+}
+
+.logotips{
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    margin-bottom: 62px;
+}
+
+.finish_text{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 36px;
+color: #96839B;
+}
+
+footer .col-6 ul  li span{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+color: #F5FBF2;
+}
+
+
+footer .col-6 ul  li a{
+    
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 50px;
+color: #96839B;
+text-decoration: none;
+
+}
+footer .col-2 ul  li span{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+color: #F5FBF2;
+}
+
+
+footer .col-2 ul  li a{
+    
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 50px;
+color: #96839B;
+text-decoration: none;
+
+}
+
+.for_media{
+    display: none;
+}
+
+/* ======================== media ================================ */
+
+@media(max-width : 576px){
+    .container{
+        width: 100%;
+    }
+
+    nav{
+        justify-content: space-between;
+    }
+
+    nav .col-6{
+        display: none;
+    }
+
+    .btn_nav {
+        font-size: 16px;
+        padding: 13px 28px 13px 30px;
+    }
+    
+
+    .filt{
+        display: none;
+    }
+
+    .for_media{
+        display: block;
+            width: 362px;
+            margin: auto;
+    }
+
+    .head_name{
+        text-align: center;
+    }
+
+    .head_btns {
+        justify-content: center;
+        margin-bottom: 57px;
+    }
+
+    .logoies{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 48px;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .logoies img{
+        width: 155px;
+        margin: auto;
+    }
+
+    .second_sec_name {
+        font-size: 32px;
+        width: 237px;
+    }
+
+    .pic_card {
+        padding: 47px 16px 32px 43px;
+    }
+
+    .auctions{
+        justify-content: center;
+        gap: 30px;
+    }
+    .glass{
+        text-align: center;
+    }
+
+    .glass .mask{
+        width: 360px;
+    }
+
+  
+
+    .popular{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fourth_sec_name {
+        font-size: 37px;
+        width: 353px;
+    }
+
+    .ellipse_fourth{
+        background: #8613A5;
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        margin: auto;
+        margin-left: -40%;
+    }
+
+    .fourth_sec_name{
+        margin-left: -10%;
+    }
+
+    .fifth_sec_name {
+        font-size: 34px;
+        width: 360px;
+    }
+
+    .ellipse{
+        margin-left: -15%;
+    }
+
+    .pic_card {
+        padding: 47px 25px 32px 74px;
+    }
+.gmail_inp{
+    margin-left: -13%;
+}
+
+    .subs{
+        margin-bottom: 50px;
+        margin: auto;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+
+  .fot{
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+    
+}
+
+
+@media(max-width : 451px){
+    .container{
+        width: 362px;
+        margin: 0 auto;
+    }
+    .head_btns {
+        display: flex;
+        gap: 16px;
+    }
+    .head_name {
+        font-family: 'Oxanium';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 41px;
+        line-height: 74px;
+        color: #F5FBF2;
+    }
+    header {
+        padding-top: 0px;
+        padding-bottom: 45px;
+    }
+
+    .head_btns button {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 19px 39px;
+    }
+
+    .for_media {
+        display: block;
+        width: 300px;
+        margin: auto;
+    }
+
+    .numb .piece p {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 0px;
+        color: #9B9E9A;
+    }
+
+    .numb .piece span {
+        font-family: 'Oxanium';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 60px;
+        color: #F5FBF2;
+    }
+    .numb {
+        display: flex;
+        gap: 60px;
+        margin-top: 49px;
+        margin-left: 19px;
+    }
+    .pic_card {
+        padding:11px;
+    }
+    .statue{
+        width: 310px;
+        height: 300px;
+    }
+    .u_name span {
+        font-size: 10px;
+    }
+    .u_name p {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 6px;
+        display: flex;
+        align-items: center;
+        color: #BDAAC1;
+    }
+    .s_btn {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 35px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        padding: 11px 75px;
+        background: rgba(233, 215, 167, 0.1);
+        border: 1px solid #FDE8B3;
+        margin-top: 40px;
+    }
+    .view_btn {
+        font-family: 'Work Sans';
+        font-weight: 500;
+        font-size: 23px;
+        color: #F5FBF2;
+        padding: 19px 60px;
+        border: 1px solid #FFCE4E;
+        background: transparent;
+    }
+    .vi_btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 34px;
+        margin-bottom: 30px;
+    }
+    .third_section {
+        padding-top: 27px;
+        background: linear-gradient(336.61deg, #251928 16.25%, rgba(37, 25, 40, 0) 91.6%);
+    }
+    .h_work_name {
+        font-family: 'Oxanium';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 130px;
+        color: #F5FBF2;
+        text-align: center;
+    }
+     .load {
+        flex-wrap: wrap;
+        width: 272px;
+        margin: auto;
+    }
+    .fourth_sec_name {
+        font-size: 21px;
+        width: 234px;
+        margin-top: -24px;
+    } 
+    .pink_circle {
+        margin: auto;
+        padding: 86px 0px 65px;
+    }
+    .ellipse_fourth {
+        background: #8613A5;
+        width: 74px;
+        height: 74px;
+        border-radius: 50%;
+        margin: auto;
+        margin-left: -40%;
+    }
+    .glass .mask {
+        width: 301px;
+    }
+    .fifth_sec_name {
+        font-size: 15px;
+        width: 183px;
+        margin-top: -27px;
+    }
+    .ellipse, .ellipse_fourth{
+        width: 74px;
+        height: 75px;
+    }
+    .bid{
+        font-size: 13px;
+    }
+    .eth{
+        font-size: 16px;
+    }
+    .col-8 {
+        flex: 0 0 auto;
+        width: 51.666667%;
+    }
+    .second_sec_name {
+        font-size: 32px;
+        width: 237px;
+        margin: 0 auto;
+        margin-top: -25px;
+    }
+    .purple_circle {
+        padding-bottom: 42px;
+        margin: auto;
+        margin-left: 64px;
+    }
+    .s_svg {
+        margin-left: 87px;
+    }
+    .nft_seven {
+        font-family: 'Oxanium';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 86px;
+        text-align: center;
+        color: #F5FBF2;
+    }
+    .gmail_inp {
+        padding: 10px;
+        font-size: 18px;
+    }
+    .subs {
+        margin-bottom: 50px;
+        margin: auto;
+        text-align: center;
+        margin-left: -24px;
+        margin-top: 15px;
+    }
+    .plk{
+        width: 62px;
+    }
+    footer{
+        padding-top: 22px;
+        padding-bottom: 50px;
+    }
+    .end_text{
+        font-size: 16px;
+    }
+    
+.logotips {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.logotips {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    margin-bottom: 48px;
+    margin-left: -43px;
+}
+.finish_text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #96839B;
+    margin-left: -58px;
+}
+footer .col-6 ul li a {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 31px;
+    color: #96839B;
+    text-decoration: none;
+}
+footer .col-6 ul li span {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #F5FBF2;
+}
+}
