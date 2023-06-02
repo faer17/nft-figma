@@ -29,6 +29,7 @@ nav .list{
     display: flex;
     gap: 64px;
     align-items: center;
+    margin-top: 22px;
 }
 
 nav .list_item a{
@@ -63,6 +64,11 @@ padding: 21px 29px 22px 30px;
 background: rgba(233, 215, 167, 0.1);
 border: 1px solid #FFCE4E;
 }
+.btn_nav:hover{
+    background-color: orange;
+    color: white;
+  }
+  
 
 /*--========================nav finished===================== */
 
@@ -109,6 +115,14 @@ background: rgba(233, 215, 167, 0.1);
 border: 1px solid #FFCE4E;
 }
 
+
+
+.head_btns button:hover{
+    transition: 0.3s;
+    background-color: orange;
+    color: white;
+}
+
 .numb .piece span{
     font-family: 'Oxanium';
 font-style: normal;
@@ -144,6 +158,7 @@ color: #9B9E9A;
     display: flex;
     justify-content: space-between;
     margin-bottom: 193px;
+    height: 30px;
 }
 
 /* ===================first section finished==================== */
@@ -201,6 +216,12 @@ width: 463px;
 .c_text{
     display: flex;
     gap: 170px;
+}
+
+.pic_card button:hover{
+    transition: 0.3s;
+    background-color: orange;
+    color: white;
 }
 
 .eth{
@@ -283,6 +304,12 @@ margin-top: 40px;
     margin-bottom: 80px;
 }
 
+.view_btn:hover{
+    background-color: orange;
+    transition: 0.3s;
+}
+
+
 .view_btn{
 font-family: 'Work Sans';
 font-weight: 500;
@@ -291,6 +318,7 @@ color: #F5FBF2;
 padding: 24px 65px;
 border: 1px solid #FFCE4E;
 background: transparent;
+margin-bottom: 99px;
 }
 
 /* ===================second section finished==================== */
@@ -581,7 +609,8 @@ text-decoration: none;
         font-size: 16px;
         padding: 13px 28px 13px 30px;
     }
-    
+
+
 
     .filt{
         display: none;
@@ -937,6 +966,8 @@ footer .col-6 ul li a {
     color: #96839B;
     text-decoration: none;
 }
+
+
 footer .col-6 ul li span {
     font-family: 'Work Sans';
     font-style: normal;
